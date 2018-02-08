@@ -91,6 +91,11 @@
     <!-- The default iface on which to monitor data use -->
     <string name="config_datause_iface" translatable="false">rmnet4</string>
 
+    <!-- Vibrator pattern for a very short but reliable vibration for soft keyboard tap -->
+    <integer-array name="config_keyboardTapVibePattern">
+        <item>10</item>
+    </integer-array>
+
     <!-- ############################################################## -->
     <!-- ### HARDWARE KEYS                                              -->
     <!-- ############################################################## -->
