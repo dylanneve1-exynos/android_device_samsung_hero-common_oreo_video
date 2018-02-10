@@ -67,6 +67,3 @@ BOARD_SECCOMP_POLICY += device/samsung/hero-common/seccomp
 
 # Inherit from the proprietary version
 -include vendor/samsung/hero-common/BoardConfigVendor.mk
-
-#Lockscreen charging info: real time values 
-BOARD_GLOBAL_CFLAGS += -DBATTERY_REAL_INFO 
