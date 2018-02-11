@@ -13,7 +13,6 @@ LOCAL_SHARED_LIBRARIES := \
     android.hardware.graphics.bufferqueue@1.0
 
 LOCAL_C_INCLUDES += \
-    device/samsung/hero-common/include \
     system/core/include \
     system/media/camera/include \
     frameworks/native/libs/arect/include \
