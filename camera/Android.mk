@@ -25,3 +25,13 @@ LOCAL_MODULE := camera.$(TARGET_BOARD_PLATFORM)
 LOCAL_MODULE_TAGS := optional
 
 include $(BUILD_SHARED_LIBRARY)
+
+LOCAL_PATH := $(call my-dir)
+include $(CLEAR_VARS)
+
+LOCAL_SRC_FILES := \
+    CameraParameters.cpp
+
+LOCAL_MODULE := libcamera_parameters_hero
+
+include $(BUILD_STATIC_LIBRARY)
