@@ -63,7 +63,7 @@ BOARD_SEPOLICY_DIRS := device/samsung/hero-common/sepolicy
 BOARD_SECCOMP_POLICY += device/samsung/hero-common/seccomp
 
 # Inherit board specific defines
--include device/samsung/hero-common/board/*.mk
+-include $(LOCAL_PATH)/board/*.mk
 
 # Inherit from the proprietary version
 -include vendor/samsung/hero-common/BoardConfigVendor.mk
