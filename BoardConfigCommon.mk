@@ -28,6 +28,9 @@ TARGET_BOOTLOADER_BOARD_NAME := universal8890
 TARGET_NO_BOOTLOADER := true
 TARGET_NO_RADIOIMAGE := true
 
+# Allow missing dependencies
+ALLOW_MISSING_DEPENDENCIES=true
+
 # Audio HAL variant
 TARGET_AUDIOHAL_VARIANT := samsung
 
